@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rain's Modding Portfolio</title>
+  
+  <!-- Google Fonts for a stylish, modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Body with background image of heavy rain on a dark night */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80'); /* Use your preferred rainy night image URL */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      color: #f0f0f0; /* Light text for contrast */
+      line-height: 1.6;
+    }
+
+    /* Overlay to darken the background for readability */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for atmospheric mood */
+      z-index: -1;
+    }
+
+    /* Header styling */
+    header {
+      background-color: rgba(20, 20, 20, 0.8);
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 2px solid #222;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3em;
+      letter-spacing: 2px;
+      color: #003366; /* Dark blue for the main title */
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    }
+
+    /* Sections styling */
+    section {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #003366; /* Dark blue */
+      padding-bottom: 8px;
+      color: #003366;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    }
+
+    /* List styles */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Project box styling */
+    .project {
+      background-color: rgba(255,255,255,0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .project:hover {
+      background-color: rgba(255,255,255,0.2);
+      transform: translateY(-3px);
+    }
+
+    .project-title {
+      font-weight: 700;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      color: #006699; /* Slightly lighter blue for titles */
+    }
+
+    /* Link styles */
+    a {
+      color: #3399cc; /* Bright blue for links */
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    a:hover {
+      color: #66ccff; /* Lighter blue on hover */
+      transform: scale(1.05);
+      text-decoration: underline;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: rgba(20, 20, 20, 0.8);
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+      font-size: 1em;
+      color: #aaa;
+    }
+
+    /* Responsive adjustments */
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      section {
+        margin: 20px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rain's Modding Portfolio</h1>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p><strong>Name:</strong> Rain</p>
+  <p><strong>Experience:</strong> Began modding in 2023</p>
+  <p><strong>Career Highlights:</strong></p>
+  <ul>
+    <li>Contributed to projects with millions of visits</li>
+    <li>Participated in mods reaching hundreds of millions of players</li>
+    <li>Worked on various "Type Soul" copies, including high-traffic 1s</li>
+  </ul>
+  <p style="font-weight: bold; margin-top: 20px;">Note: I no longer work for any of the projects mentioned below.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills &amp; Expertise</h2>
+  <ul>
+    <li>Game Modding &amp; Custom Content Creation</li>
+    <li>Gameplay Adjustments &amp; Balancing</li>
+    <li>Community Engagement &amp; Feedback Integration</li>
+    <li>Passion for Learning Game Development</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Notable Projects</h2>
+  
+  <!-- Reaper 2 -->
+  <div class="project">
+    <div class="project-title">[Reaper 2] (Visits: 148M)</div>
+    <p>Focused on in-game modifications and support tickets</p>
+    <p><strong>Discord:</strong> <a href="https://discord.com/invite/reaper2" target="_blank">Join Reaper 2 Discord</a></p>
+  </div>
+  
+  <!-- Grand Alfheim -->
+  <div class="project">
+    <div class="project-title">[Grand Alfheim] (Visits: 177K)</div>
+    <p>All-around modding (retired)</p>
+    <p><strong>Discord:</strong> <a href="https://discord.gg/aspjh6vHZj" target="_blank">Join Grand Alfheim Discord</a></p>
+  </div>
+  
+  <!-- Type Soul Clones -->
+  <div class="project">
+    <div class="project-title">[Type Soul Clones] (Total Visits: 2.1M)</div>
+    <p>Mods for tickets, in-game features, and chat systems</p>
+    <p><strong>Discord Links:</strong></p>
+    <ul>
+      <li><a href="https://discord.com/invite/qmjyXaKUqn" target="_blank">Type War</a></li>
+      <li><a href="https://discord.gg/typecc" target="_blank">Type Ego</a></li>
+      <li><a href="https://discord.gg/ZS9W24rVs8" target="_blank">Type Rune</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="why-work-with-me">
+  <h2>Why Work With Me?</h2>
+  <ul>
+    <li>Passionate and dedicated modder with a growing portfolio</li>
+    <li>Experience working with large gaming communities</li>
+    <li>Interested in transitioning into game development and creating original titles</li>
+    <li>Open to collaborations and investment opportunities</li>
+  </ul>
+</section>
+
+<section id="future">
+  <h2>Goals &amp; Future Plans</h2>
+  <ul>
+    <li>Move from modding to full game development</li>
+    <li>Enhance coding skills (Unity, Unreal, etc.)</li>
+    <li>Develop original games inspired by my modding experience</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Discord:</strong> <a href="https://discord.com/users/cowinspaceyuh" target="_blank">cowinspaceyuh</a></p>
+  <p>Feel free to DM me for more contact info or if you're comfortable sharing more!</p>
+</section>
+
+<footer>
+  &copy; 2023 Rain's Modding Portfolio
+</footer>
+
+</body>
+</html>
